@@ -8,6 +8,13 @@
             Console.WriteLine("Hello, C# Academy !, one more modification"); Console.WriteLine("Hello, C# Academy !, one more modification"); Console.WriteLine("Hello, C# Academy !, one more modification"); Console.WriteLine("Hello, C# Academy !, one more modification");
             Console.WriteLine("Hello, C# Academy !, one more modification"); Console.WriteLine("Hello, C# Academy !, one more modification");
             Console.WriteLine("Hello, C# Academy !, one more modification");
+
+            myMethod();
+        }
+
+        static void myMethod()
+        {
+            Console.WriteLine("Now I have a method");
         }
     }
 }
